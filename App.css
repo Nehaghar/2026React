@@ -1,0 +1,78 @@
+/* Full page background */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main container */
+.App {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  min-width: 320px;
+}
+
+/* Counter display */
+.counter {
+  list-style: none;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Button container */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Common button styles */
+button {
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: white;
+}
+
+/* Add button */
+.add-btn {
+  background: #28a745;
+}
+
+.add-btn:hover {
+  background: #218838;
+  transform: translateY(-3px);
+}
+
+/* Sub button */
+.sub-btn {
+  background: #dc3545;
+}
+
+.sub-btn:hover {
+  background: #c82333;
+  transform: translateY(-3px);
+}
+
+/* Reset button */
+.reset-btn {
+  background: #007bff;
+}
+
+.reset-btn:hover {
+  background: #0069d9;
+  transform: translateY(-3px);
+}
